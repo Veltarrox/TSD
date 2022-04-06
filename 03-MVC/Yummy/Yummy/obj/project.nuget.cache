@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "chEE30+VVDsJik2PbdR2hNqdm6vCLA3rZ4WzxhngUrWvhCan0gUpk0TP5hfUHRlihqgy8SnjgEZ+iINXiFAFGg==",
+  "dgSpecHash": "vRHlI5qH75cuq4cEQfcR0OkPrwSyOuhYGJbjRFZwqMEQPEV9YrUA/KCYs/8+rdyEMmZMb57nu+TQneQbzKbOQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Veltarrox\\source\\repos\\Yummy\\Yummy\\Yummy.csproj",
+  "projectFilePath": "D:\\gitstuff\\TSD\\03-MVC\\Yummy\\Yummy\\Yummy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Veltarrox\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Veltarrox\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

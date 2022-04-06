@@ -9400,11 +9400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Veltarrox\\source\\repos\\Yummy\\Yummy\\Yummy.csproj",
+      "projectUniqueName": "D:\\gitstuff\\TSD\\03-MVC\\Yummy\\Yummy\\Yummy.csproj",
       "projectName": "Yummy",
-      "projectPath": "C:\\Users\\Veltarrox\\source\\repos\\Yummy\\Yummy\\Yummy.csproj",
+      "projectPath": "D:\\gitstuff\\TSD\\03-MVC\\Yummy\\Yummy\\Yummy.csproj",
       "packagesPath": "C:\\Users\\Veltarrox\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Veltarrox\\source\\repos\\Yummy\\Yummy\\obj\\",
+      "outputPath": "D:\\gitstuff\\TSD\\03-MVC\\Yummy\\Yummy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

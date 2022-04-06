@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Yummy
 build_property.RootNamespace = Yummy
-build_property.ProjectDir = C:\Users\Veltarrox\source\repos\Yummy\Yummy\
+build_property.ProjectDir = D:\gitstuff\TSD\03-MVC\Yummy\Yummy\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Veltarrox\source\repos\Yummy\Yummy
+build_property.MSBuildProjectDirectory = D:\gitstuff\TSD\03-MVC\Yummy\Yummy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Home/Index.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Home/Privacy.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Recipes/Create.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Recipes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Recipes/Delete.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Recipes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Recipes/Details.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Recipes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Recipes/Edit.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Recipes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Recipes/Index.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Recipes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Shared/Error.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/_ViewImports.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/_ViewStart.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Veltarrox/source/repos/Yummy/Yummy/Views/Shared/_Layout.cshtml]
+[D:/gitstuff/TSD/03-MVC/Yummy/Yummy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-y0dmhn5p9j
