@@ -28,39 +28,156 @@
             </Grid.ColumnDefinitions>
             <Border BorderBrush="Black" BorderThickness="0.5" Grid.Column="0" />
             <Border BorderBrush="Black" BorderThickness="0.5" Grid.Column="1" />
-            <Grid Grid.Column="0" ScrollViewer.CanContentScroll="False">
-                
-                    <ListView Margin="10" Name="BooksList">
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock>My Books</TextBlock>
+                </Grid>
+                <Grid Grid.Row="1">
+                <ListBox HorizontalContentAlignment="Stretch" Name="BooksList" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectedItem="Binding SelectedBook, Mode=TwoWay">
                     
-                    <ListView.ItemTemplate>
+                    <ListBox.ItemTemplate>
                             <DataTemplate>
 
                                 <Grid >
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="1*"/>
-                                        <ColumnDefinition Width="1*"/>
-                                        <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                 <Border BorderBrush="Gray" BorderThickness="0.25" Grid.Column="0" />
                                 <Border BorderBrush="Gray" BorderThickness="0.25" Grid.Column="1" />
                                 <Border BorderBrush="Gray" BorderThickness="0.25" Grid.Column="2" />
-                                <Grid Grid.Column="0">
-                                        <TextBlock Text="{Binding Id}"/>
-                                    </Grid>
-                                    <Grid Grid.Column="1">
-                                        <TextBlock Text="{Binding Title}"/>
-                                    </Grid>
-                                    <Grid Grid.Column="2">
-                                        <TextBlock Text="{Binding IsRead}"/>
-                                    </Grid>
-
+                                <TextBlock Text="{Binding Id}" Grid.Column="0"/>
+                                <TextBlock Text="{Binding Title}" Grid.Column="1"/>
+                                <TextBlock Text="{Binding IsRead}" Grid.Column="2"/>
 
                                 </Grid>
 
                             </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
                 </Grid>
+                <Grid Grid.Row="2">
+                    <Button>Add</Button>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <TextBlock >Id</TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBlock Text="{Binding ElementName=BooksList, Path=SelectedItem.Id, Mode=OneWay}"></TextBlock>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <TextBlock >Title</TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBox Text="{Binding ElementName=BooksList, Path=SelectedItem.Title, Mode=TwoWay}"></TextBox>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <TextBlock >Author</TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBox Text="{Binding ElementName=BooksList, Path=SelectedItem.Author, Mode=TwoWay}"></TextBox>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <TextBlock >Year</TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBox Text="{Binding ElementName=BooksList, Path=SelectedItem.Year, Mode=TwoWay}"></TextBox>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <TextBlock >IsRead</TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <CheckBox IsChecked="{Binding ElementName=BooksList, Path=SelectedItem.IsRead, Mode=TwoWay}"></CheckBox>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <TextBlock >Format</TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <ComboBox Name="cmbBooks" SelectedItem="{Binding ElementName=BooksList, Path=SelectedItem.Format, Mode=TwoWay}">
+
+                            </ComboBox>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Button Name="Delete" Click="Delete_Click">Delete</Button>
+                </Grid>
+            </Grid>
             </Grid>
             
         </Grid>

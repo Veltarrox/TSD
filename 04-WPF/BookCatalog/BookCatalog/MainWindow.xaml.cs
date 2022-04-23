@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,8 +23,17 @@ namespace BookCatalog
     {
         public MainWindow()
         {
+
+            ObservableCollection<Book> books = new ObservableCollection<Book>(MyBookCollection.GetMyCollection());
             InitializeComponent();
-            BooksList.ItemsSource = MyBookCollection.GetMyCollection();
+            BooksList.ItemsSource = books;
+            cmbBooks.ItemsSource = Enum.GetValues(typeof(BookFormat));
+            
+        }
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+
+            ((ObservableCollection<Book>)BooksList.ItemsSource).Remove((Book)BooksList.SelectedItem);
         }
     }
 }
