@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <script src="https://unpkg.com/vue@3.0.11"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Books</h1>
+        <div>
+        <p>Title: <input type="text" v-model="titleOfNewBook" ></input></p>
+        <p>Is book read: <select v-model="isReadOfNewBook">
+            <option value="bookRead">Yes</option>
+            <option value="bookNotRead">No</option>
+        </select>
+        </p>
+        <button v-on:click="onAddClick">Add</button>
+        </div>
+        <div v-for="book in books" class="book">
+            <div class="bookTitle">{{ book.title }}</div> <div v-bind:class ="book.isRead">{{ book.isRead }}</div>  
+        </div>
+    </div>
+    
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    books: [
+                        { title: 'Thinking, fast and slow', isRead: 'bookRead' }, 
+                        { title: 'Scrum Guide', isRead: 'bookNotRead' }, 
+                    ],
+                    titleOfNewBook: '',
+                    isReadOfNewBook: 'bookNotRead'
+                }
+            },
+            methods: {
+                    onAddClick() {
+                        this.books.push({title: this.titleOfNewBook, isRead: this.isReadOfNewBook})
+                    }
+            },
+        })
+        app.mount('#app')
+    </script>
+</body>
+<style>
+    .book{
+        background-color: blanchedalmond;
+         justify-content: space-between;
+    } 
+    .bookTitle {
+        font-weight: bold;
+    }
+    .bookRead {
+        color: green;
+    }
+    .bookNotRead {
+        color: red;
+    }
+</style>
+</html>
