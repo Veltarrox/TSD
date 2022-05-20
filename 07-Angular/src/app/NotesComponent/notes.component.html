@@ -1,0 +1,5 @@
+<ul class="notes">
+  <li *ngFor="let note of notes">
+    at {{ note.date | date: 'dd/MM/yyyy' }} I Noted "{{ note.text }}"
+  </li>
+</ul>
