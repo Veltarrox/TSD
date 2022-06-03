@@ -1,0 +1,14 @@
+def upper(text:String):String={
+  var result=text
+  if(text.length()<=4)
+  {
+      result=text.toUpperCase()
+  }
+  else{
+      
+      result=text.substring(0,text.length()-4)+text.takeRight(4).toUpperCase
+  }
+  return result
+
+}
+println(upper("xxxxxx"))

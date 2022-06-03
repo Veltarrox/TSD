@@ -1,0 +1,19 @@
+def subap(base:String,sub1:String,sub2:String):String={
+  var count1=0
+  var count2=0
+  for(i<-0 to base.length()-sub1.length()){
+    var test=base.substring(i,i+sub1.length())
+    if(test==sub1){
+          count1=count1+ 1
+    }
+  }
+  for(i<-0 to base.length()-sub2.length()){
+    var test=base.substring(i,i+sub2.length())
+    if(test==sub2){
+          count2=count2+ 1
+    }
+  }
+  return "appearence of first substr "+count1.toString()+" appearence of second substr "+count2.toString()
+}
+
+println(subap("aabaabaaa","aa","b"))
