@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cT9GHKNISUWzo9HMZ9NZ4FIrZ6KKB5JpIV7ELf+wQL3t8utSRUt5KPP2fqvWefsw/yQiEzyg0GBcR5BUMB6Oig==",
+  "success": true,
+  "projectFilePath": "D:\\gitstuff\\tsd2022\\02-linq\\TSD.Linq.Task1.Lib\\TSD.Linq.Task1.Lib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Veltarrox\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

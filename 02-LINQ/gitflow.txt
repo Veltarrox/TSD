@@ -1,0 +1,90 @@
+* commit a3f6ff3c0f615e1ac5065e239cb611520bf4fb9c
+| Author: Veltarrox <jasiuu55@wp.pl>
+| Date:   Sun Mar 13 23:57:23 2022 +0100
+| 
+|     last change
+| 
+* commit 9fe199b0c354c6993e87fe8dc518368e3171f37f
+| Author: Veltarrox <jasiuu55@wp.pl>
+| Date:   Sun Mar 13 00:26:53 2022 +0100
+| 
+|     tasks
+| 
+* commit b1007334dd3be5c1ddc488063d12b4d9d1d54fe9
+| Author: Veltarrox <jasiuu55@wp.pl>
+| Date:   Sat Mar 12 22:25:59 2022 +0100
+| 
+|     som
+| 
+* commit c61981a044dcf602529e8294ccc48a9211456275
+| Author: Veltarrox <jasiuu55@wp.pl>
+| Date:   Thu Mar 10 23:35:22 2022 +0100
+| 
+|     a
+|   
+*   commit d88a4f51be8569d07ac12ac12bfa3713aea7676e
+|\  Merge: 71eb1cc 61f8a08
+| | Author: Veltarrox <jasiuu55@wp.pl>
+| | Date:   Thu Mar 10 23:32:54 2022 +0100
+| | 
+| |     Merge branch 'branch1'
+| | 
+| * commit 61f8a08aaefca38ded2dea7eb41b8c7cd9a641ea
+| | Author: Veltarrox <jasiuu55@wp.pl>
+| | Date:   Thu Mar 10 23:30:47 2022 +0100
+| | 
+| |     something
+| | 
+| * commit 2534e69e85073f501842f88149ea7a4680c48cdd
+| | Author: Veltarrox <jasiuu55@wp.pl>
+| | Date:   Thu Mar 10 23:21:40 2022 +0100
+| | 
+| |     task 4 done
+| | 
+| * commit 42e0984d6588a721404118a14944674b43dae007
+| | Author: Veltarrox <jasiuu55@wp.pl>
+| | Date:   Thu Mar 10 22:58:23 2022 +0100
+| | 
+| |     Task 3 done
+| | 
+| * commit 0e31a3fb256dbf196a2099fa89bf285b0ffe8e25
+| | Author: Veltarrox <jasiuu55@wp.pl>
+| | Date:   Thu Mar 10 22:02:14 2022 +0100
+| | 
+| |     Top3 added
+| | 
+* | commit 71eb1ccdfcc6696138db9c27591c4f578026a8c7
+| | Author: Veltarrox <jasiuu55@wp.pl>
+| | Date:   Thu Mar 10 23:32:08 2022 +0100
+| | 
+| |     a
+| | 
+* | commit 8587dc39d18e4118498cc2969228ef74fa942dfb
+|/  Author: Veltarrox <jasiuu55@wp.pl>
+|   Date:   Thu Mar 10 23:30:29 2022 +0100
+|   
+|       wg
+| 
+* commit ce061fd31c6639f5cbbde61b00a11c0d4c5d2c1d
+| Author: Sylwia Kopczyńska <sylwia.kopczynska@cs.put.poznan.pl>
+| Date:   Wed Mar 9 12:30:04 2022 +0100
+| 
+|     Adds LINQ laboratory starting solution
+| 
+* commit a4ffd6e22c0a5e2660d9b3544683c64407536aa0
+| Author: skopczynska <sylwia.kopczynska@cs.put.poznan.pl>
+| Date:   Wed Mar 9 09:34:53 2022 +0100
+| 
+|     Update README.md
+| 
+* commit 24c63c0ba3c1dda3049b6fbf12d87ffd3078e9b0
+| Author: skopczynska <sylwia.kopczynska@cs.put.poznan.pl>
+| Date:   Wed Mar 9 09:31:07 2022 +0100
+| 
+|     Update README.md
+| 
+* commit 4212a3b30d219db8255b6a6e9bcea409bd1dcb95
+  Author: skopczynska <sylwia.kopczynska@cs.put.poznan.pl>
+  Date:   Wed Mar 9 09:30:05 2022 +0100
+  
+      Initial commit

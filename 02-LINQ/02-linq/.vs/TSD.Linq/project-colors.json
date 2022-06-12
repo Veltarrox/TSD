@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bfb4bd85-44d9-4328-bd16-bbce2a3017db": {
+      "ProjectGuid": "bfb4bd85-44d9-4328-bd16-bbce2a3017db",
+      "DisplayName": "TSD.Linq.Task1.Lib.Test",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Różne pliki",
+      "ColorIndex": -1
+    },
+    "017e0749-7c2f-438b-911a-6064618317f0": {
+      "ProjectGuid": "017e0749-7c2f-438b-911a-6064618317f0",
+      "DisplayName": "TSD.Linq.Task1.Lib",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
